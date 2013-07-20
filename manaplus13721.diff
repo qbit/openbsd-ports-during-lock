@@ -1,0 +1,43 @@
+Index: Makefile
+===================================================================
+RCS file: /cvs/ports/games/manaplus/Makefile,v
+retrieving revision 1.18
+diff -u -p -u -p -r1.18 Makefile
+--- Makefile	7 Jul 2013 03:12:50 -0000	1.18
++++ Makefile	20 Jul 2013 20:46:37 -0000
+@@ -2,7 +2,7 @@
+ 
+ COMMENT =	extended client for The Mana World
+ 
+-V =		1.3.7.7
++V =		1.3.7.21
+ DISTNAME =	manaplus-${V}
+ EXTRACT_SUFX =	.tar.xz
+ 
+Index: distinfo
+===================================================================
+RCS file: /cvs/ports/games/manaplus/distinfo,v
+retrieving revision 1.14
+diff -u -p -u -p -r1.14 distinfo
+--- distinfo	7 Jul 2013 03:12:50 -0000	1.14
++++ distinfo	20 Jul 2013 20:46:37 -0000
+@@ -1,2 +1,2 @@
+-SHA256 (manaplus-1.3.7.7.tar.xz) = kfKM+eUmecp2G48JXFUCHOvqh8sUbr9gD61q/oxRB0U=
+-SIZE (manaplus-1.3.7.7.tar.xz) = 6954100
++SHA256 (manaplus-1.3.7.21.tar.xz) = IueuqjPgl9dd615LsTSfYORnpGRKDNSrSW/zDQ5ZMTo=
++SIZE (manaplus-1.3.7.21.tar.xz) = 6940144
+Index: pkg/PLIST
+===================================================================
+RCS file: /cvs/ports/games/manaplus/pkg/PLIST,v
+retrieving revision 1.9
+diff -u -p -u -p -r1.9 PLIST
+--- pkg/PLIST	7 Jul 2013 03:12:50 -0000	1.9
++++ pkg/PLIST	20 Jul 2013 20:46:37 -0000
+@@ -198,6 +198,7 @@ share/manaplus/data/perserver/
+ share/manaplus/data/perserver/default/
+ share/manaplus/data/perserver/default/charcreation.xml
+ share/manaplus/data/perserver/default/chatcommands.txt
++share/manaplus/data/perserver/default/deadmessages.xml
+ share/manaplus/data/perserver/default/features.xml
+ share/manaplus/data/perserver/default/gmcommands.txt
+ share/manaplus/data/sfx/

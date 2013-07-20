@@ -1,0 +1,6 @@
+Leave a note as to what diffs are yours.
+========================================
+
+Port			Diff				Log message				Responsible
+----			----				-----------				-----------
+games/manaplus		manaplus13721.diff		Minor update to 1.3.7.21		bcallah@
