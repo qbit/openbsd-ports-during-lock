@@ -1,5 +1,6 @@
-Leave a note as to what diffs are yours.
-========================================
+# Leave a note as to what diffs are yours.
+# After unlock, please commit what you are responsible for and remove entry from this list and diff from the repo.
+# This repo should be empty not too long after unlock!
 
 Port			Diff				Log message				Responsible
 ----			----				-----------				-----------
